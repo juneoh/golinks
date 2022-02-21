@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53679F4D27C3A243004BE557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53679F4C27C3A243004BE557 /* AppDelegate.swift */; };
+		53679F4F27C3A243004BE557 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53679F4E27C3A243004BE557 /* SceneDelegate.swift */; };
+		53679F5227C3A243004BE557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53679F5027C3A243004BE557 /* LaunchScreen.storyboard */; };
+		53679F5527C3A243004BE557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53679F5327C3A243004BE557 /* Main.storyboard */; };
+		53679F5E27C3A243004BE557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53679F5D27C3A243004BE557 /* AppDelegate.swift */; };
+		53679F6127C3A243004BE557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53679F5F27C3A243004BE557 /* Main.storyboard */; };
+		53679F6827C3A243004BE557 /* golinks-m2 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53679F6727C3A243004BE557 /* golinks-m2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53679F7227C3A243004BE557 /* golinks-m2 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 53679F7127C3A243004BE557 /* golinks-m2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53679F7827C3A243004BE557 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3327C3A243004BE557 /* Main.html */; };
+		53679F7927C3A243004BE557 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3327C3A243004BE557 /* Main.html */; };
+		53679F7A27C3A243004BE557 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3527C3A243004BE557 /* Icon.png */; };
+		53679F7B27C3A243004BE557 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3527C3A243004BE557 /* Icon.png */; };
+		53679F7C27C3A243004BE557 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3627C3A243004BE557 /* Style.css */; };
+		53679F7D27C3A243004BE557 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3627C3A243004BE557 /* Style.css */; };
+		53679F7E27C3A243004BE557 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3727C3A243004BE557 /* Script.js */; };
+		53679F7F27C3A243004BE557 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3727C3A243004BE557 /* Script.js */; };
+		53679F8027C3A243004BE557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53679F3827C3A243004BE557 /* ViewController.swift */; };
+		53679F8127C3A243004BE557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53679F3827C3A243004BE557 /* ViewController.swift */; };
+		53679F8227C3A243004BE557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3927C3A243004BE557 /* Assets.xcassets */; };
+		53679F8327C3A243004BE557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3927C3A243004BE557 /* Assets.xcassets */; };
+		53679F8427C3A243004BE557 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53679F3B27C3A243004BE557 /* SafariWebExtensionHandler.swift */; };
+		53679F8527C3A243004BE557 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53679F3B27C3A243004BE557 /* SafariWebExtensionHandler.swift */; };
+		53679F8627C3A243004BE557 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3D27C3A243004BE557 /* _locales */; };
+		53679F8727C3A243004BE557 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3D27C3A243004BE557 /* _locales */; };
+		53679F8827C3A243004BE557 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3E27C3A243004BE557 /* images */; };
+		53679F8927C3A243004BE557 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3E27C3A243004BE557 /* images */; };
+		53679F8A27C3A243004BE557 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3F27C3A243004BE557 /* manifest.json */; };
+		53679F8B27C3A243004BE557 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 53679F3F27C3A243004BE557 /* manifest.json */; };
+		53679F8C27C3A243004BE557 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4027C3A243004BE557 /* background.js */; };
+		53679F8D27C3A243004BE557 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4027C3A243004BE557 /* background.js */; };
+		53679F8E27C3A243004BE557 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4127C3A243004BE557 /* content.js */; };
+		53679F8F27C3A243004BE557 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4127C3A243004BE557 /* content.js */; };
+		53679F9027C3A243004BE557 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4227C3A243004BE557 /* popup.html */; };
+		53679F9127C3A243004BE557 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4227C3A243004BE557 /* popup.html */; };
+		53679F9227C3A243004BE557 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4327C3A243004BE557 /* popup.css */; };
+		53679F9327C3A243004BE557 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4327C3A243004BE557 /* popup.css */; };
+		53679F9427C3A243004BE557 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4427C3A243004BE557 /* popup.js */; };
+		53679F9527C3A243004BE557 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 53679F4427C3A243004BE557 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53679F6927C3A243004BE557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53679F2D27C3A242004BE557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53679F6627C3A243004BE557;
+			remoteInfo = "golinks-m2 Extension (iOS)";
+		};
+		53679F7327C3A243004BE557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53679F2D27C3A242004BE557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53679F7027C3A243004BE557;
+			remoteInfo = "golinks-m2 Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53679F9B27C3A243004BE557 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53679F6827C3A243004BE557 /* golinks-m2 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679FA227C3A243004BE557 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53679F7227C3A243004BE557 /* golinks-m2 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53679F3427C3A243004BE557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		53679F3527C3A243004BE557 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		53679F3627C3A243004BE557 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		53679F3727C3A243004BE557 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		53679F3827C3A243004BE557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53679F3927C3A243004BE557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53679F3B27C3A243004BE557 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		53679F3D27C3A243004BE557 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		53679F3E27C3A243004BE557 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		53679F3F27C3A243004BE557 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		53679F4027C3A243004BE557 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		53679F4127C3A243004BE557 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		53679F4227C3A243004BE557 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		53679F4327C3A243004BE557 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		53679F4427C3A243004BE557 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		53679F4927C3A243004BE557 /* golinks-m2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "golinks-m2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53679F4C27C3A243004BE557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53679F4E27C3A243004BE557 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53679F5127C3A243004BE557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53679F5427C3A243004BE557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53679F5627C3A243004BE557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53679F5B27C3A243004BE557 /* golinks-m2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "golinks-m2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53679F5D27C3A243004BE557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53679F6027C3A243004BE557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53679F6227C3A243004BE557 /* golinks-m2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "golinks-m2.entitlements"; sourceTree = "<group>"; };
+		53679F6727C3A243004BE557 /* golinks-m2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "golinks-m2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53679F6C27C3A243004BE557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53679F7127C3A243004BE557 /* golinks-m2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "golinks-m2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53679F7627C3A243004BE557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53679F7727C3A243004BE557 /* golinks-m2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "golinks-m2.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53679F4627C3A243004BE557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F5827C3A243004BE557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F6427C3A243004BE557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F6E27C3A243004BE557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53679F2C27C3A242004BE557 = {
+			isa = PBXGroup;
+			children = (
+				53679F3127C3A243004BE557 /* Shared (App) */,
+				53679F3A27C3A243004BE557 /* Shared (Extension) */,
+				53679F4B27C3A243004BE557 /* iOS (App) */,
+				53679F5C27C3A243004BE557 /* macOS (App) */,
+				53679F6B27C3A243004BE557 /* iOS (Extension) */,
+				53679F7527C3A243004BE557 /* macOS (Extension) */,
+				53679F4A27C3A243004BE557 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53679F3127C3A243004BE557 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				53679F3827C3A243004BE557 /* ViewController.swift */,
+				53679F3927C3A243004BE557 /* Assets.xcassets */,
+				53679F3227C3A243004BE557 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		53679F3227C3A243004BE557 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53679F3327C3A243004BE557 /* Main.html */,
+				53679F3527C3A243004BE557 /* Icon.png */,
+				53679F3627C3A243004BE557 /* Style.css */,
+				53679F3727C3A243004BE557 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53679F3A27C3A243004BE557 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				53679F3B27C3A243004BE557 /* SafariWebExtensionHandler.swift */,
+				53679F3C27C3A243004BE557 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		53679F3C27C3A243004BE557 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53679F3D27C3A243004BE557 /* _locales */,
+				53679F3E27C3A243004BE557 /* images */,
+				53679F3F27C3A243004BE557 /* manifest.json */,
+				53679F4027C3A243004BE557 /* background.js */,
+				53679F4127C3A243004BE557 /* content.js */,
+				53679F4227C3A243004BE557 /* popup.html */,
+				53679F4327C3A243004BE557 /* popup.css */,
+				53679F4427C3A243004BE557 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53679F4A27C3A243004BE557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53679F4927C3A243004BE557 /* golinks-m2.app */,
+				53679F5B27C3A243004BE557 /* golinks-m2.app */,
+				53679F6727C3A243004BE557 /* golinks-m2 Extension.appex */,
+				53679F7127C3A243004BE557 /* golinks-m2 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53679F4B27C3A243004BE557 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				53679F4C27C3A243004BE557 /* AppDelegate.swift */,
+				53679F4E27C3A243004BE557 /* SceneDelegate.swift */,
+				53679F5027C3A243004BE557 /* LaunchScreen.storyboard */,
+				53679F5327C3A243004BE557 /* Main.storyboard */,
+				53679F5627C3A243004BE557 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		53679F5C27C3A243004BE557 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				53679F5D27C3A243004BE557 /* AppDelegate.swift */,
+				53679F5F27C3A243004BE557 /* Main.storyboard */,
+				53679F6227C3A243004BE557 /* golinks-m2.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		53679F6B27C3A243004BE557 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				53679F6C27C3A243004BE557 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		53679F7527C3A243004BE557 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				53679F7627C3A243004BE557 /* Info.plist */,
+				53679F7727C3A243004BE557 /* golinks-m2.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53679F4827C3A243004BE557 /* golinks-m2 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53679F9C27C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 (iOS)" */;
+			buildPhases = (
+				53679F4527C3A243004BE557 /* Sources */,
+				53679F4627C3A243004BE557 /* Frameworks */,
+				53679F4727C3A243004BE557 /* Resources */,
+				53679F9B27C3A243004BE557 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53679F6A27C3A243004BE557 /* PBXTargetDependency */,
+			);
+			name = "golinks-m2 (iOS)";
+			productName = "golinks-m2 (iOS)";
+			productReference = 53679F4927C3A243004BE557 /* golinks-m2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53679F5A27C3A243004BE557 /* golinks-m2 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53679FA327C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 (macOS)" */;
+			buildPhases = (
+				53679F5727C3A243004BE557 /* Sources */,
+				53679F5827C3A243004BE557 /* Frameworks */,
+				53679F5927C3A243004BE557 /* Resources */,
+				53679FA227C3A243004BE557 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53679F7427C3A243004BE557 /* PBXTargetDependency */,
+			);
+			name = "golinks-m2 (macOS)";
+			productName = "golinks-m2 (macOS)";
+			productReference = 53679F5B27C3A243004BE557 /* golinks-m2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53679F6627C3A243004BE557 /* golinks-m2 Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53679F9827C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 Extension (iOS)" */;
+			buildPhases = (
+				53679F6327C3A243004BE557 /* Sources */,
+				53679F6427C3A243004BE557 /* Frameworks */,
+				53679F6527C3A243004BE557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "golinks-m2 Extension (iOS)";
+			productName = "golinks-m2 Extension (iOS)";
+			productReference = 53679F6727C3A243004BE557 /* golinks-m2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		53679F7027C3A243004BE557 /* golinks-m2 Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53679F9F27C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 Extension (macOS)" */;
+			buildPhases = (
+				53679F6D27C3A243004BE557 /* Sources */,
+				53679F6E27C3A243004BE557 /* Frameworks */,
+				53679F6F27C3A243004BE557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "golinks-m2 Extension (macOS)";
+			productName = "golinks-m2 Extension (macOS)";
+			productReference = 53679F7127C3A243004BE557 /* golinks-m2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53679F2D27C3A242004BE557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					53679F4827C3A243004BE557 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					53679F5A27C3A243004BE557 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					53679F6627C3A243004BE557 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					53679F7027C3A243004BE557 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53679F3027C3A242004BE557 /* Build configuration list for PBXProject "golinks-m2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53679F2C27C3A242004BE557;
+			productRefGroup = 53679F4A27C3A243004BE557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53679F4827C3A243004BE557 /* golinks-m2 (iOS) */,
+				53679F5A27C3A243004BE557 /* golinks-m2 (macOS) */,
+				53679F6627C3A243004BE557 /* golinks-m2 Extension (iOS) */,
+				53679F7027C3A243004BE557 /* golinks-m2 Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53679F4727C3A243004BE557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F7A27C3A243004BE557 /* Icon.png in Resources */,
+				53679F5227C3A243004BE557 /* LaunchScreen.storyboard in Resources */,
+				53679F7827C3A243004BE557 /* Main.html in Resources */,
+				53679F7E27C3A243004BE557 /* Script.js in Resources */,
+				53679F8227C3A243004BE557 /* Assets.xcassets in Resources */,
+				53679F5527C3A243004BE557 /* Main.storyboard in Resources */,
+				53679F7C27C3A243004BE557 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F5927C3A243004BE557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F7B27C3A243004BE557 /* Icon.png in Resources */,
+				53679F7D27C3A243004BE557 /* Style.css in Resources */,
+				53679F6127C3A243004BE557 /* Main.storyboard in Resources */,
+				53679F7F27C3A243004BE557 /* Script.js in Resources */,
+				53679F8327C3A243004BE557 /* Assets.xcassets in Resources */,
+				53679F7927C3A243004BE557 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F6527C3A243004BE557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F8C27C3A243004BE557 /* background.js in Resources */,
+				53679F9227C3A243004BE557 /* popup.css in Resources */,
+				53679F9027C3A243004BE557 /* popup.html in Resources */,
+				53679F8827C3A243004BE557 /* images in Resources */,
+				53679F8A27C3A243004BE557 /* manifest.json in Resources */,
+				53679F8627C3A243004BE557 /* _locales in Resources */,
+				53679F8E27C3A243004BE557 /* content.js in Resources */,
+				53679F9427C3A243004BE557 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F6F27C3A243004BE557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F8D27C3A243004BE557 /* background.js in Resources */,
+				53679F9327C3A243004BE557 /* popup.css in Resources */,
+				53679F9127C3A243004BE557 /* popup.html in Resources */,
+				53679F8927C3A243004BE557 /* images in Resources */,
+				53679F8B27C3A243004BE557 /* manifest.json in Resources */,
+				53679F8727C3A243004BE557 /* _locales in Resources */,
+				53679F8F27C3A243004BE557 /* content.js in Resources */,
+				53679F9527C3A243004BE557 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53679F4527C3A243004BE557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F8027C3A243004BE557 /* ViewController.swift in Sources */,
+				53679F4D27C3A243004BE557 /* AppDelegate.swift in Sources */,
+				53679F4F27C3A243004BE557 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F5727C3A243004BE557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F8127C3A243004BE557 /* ViewController.swift in Sources */,
+				53679F5E27C3A243004BE557 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F6327C3A243004BE557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F8427C3A243004BE557 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53679F6D27C3A243004BE557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53679F8527C3A243004BE557 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53679F6A27C3A243004BE557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53679F6627C3A243004BE557 /* golinks-m2 Extension (iOS) */;
+			targetProxy = 53679F6927C3A243004BE557 /* PBXContainerItemProxy */;
+		};
+		53679F7427C3A243004BE557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53679F7027C3A243004BE557 /* golinks-m2 Extension (macOS) */;
+			targetProxy = 53679F7327C3A243004BE557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53679F3327C3A243004BE557 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53679F3427C3A243004BE557 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		53679F5027C3A243004BE557 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53679F5127C3A243004BE557 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		53679F5327C3A243004BE557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53679F5427C3A243004BE557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53679F5F27C3A243004BE557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53679F6027C3A243004BE557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53679F9627C3A243004BE557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53679F9727C3A243004BE557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		53679F9927C3A243004BE557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2.Extension";
+				PRODUCT_NAME = "golinks-m2 Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53679F9A27C3A243004BE557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2.Extension";
+				PRODUCT_NAME = "golinks-m2 Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53679F9D27C3A243004BE557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2";
+				PRODUCT_NAME = "golinks-m2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53679F9E27C3A243004BE557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2";
+				PRODUCT_NAME = "golinks-m2";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53679FA027C3A243004BE557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/golinks-m2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2.Extension";
+				PRODUCT_NAME = "golinks-m2 Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53679FA127C3A243004BE557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/golinks-m2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2.Extension";
+				PRODUCT_NAME = "golinks-m2 Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		53679FA427C3A243004BE557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/golinks-m2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2";
+				PRODUCT_NAME = "golinks-m2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53679FA527C3A243004BE557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/golinks-m2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX83X75K63;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "golinks-m2";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juneoh.golinks-m2";
+				PRODUCT_NAME = "golinks-m2";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53679F3027C3A242004BE557 /* Build configuration list for PBXProject "golinks-m2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53679F9627C3A243004BE557 /* Debug */,
+				53679F9727C3A243004BE557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53679F9827C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53679F9927C3A243004BE557 /* Debug */,
+				53679F9A27C3A243004BE557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53679F9C27C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53679F9D27C3A243004BE557 /* Debug */,
+				53679F9E27C3A243004BE557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53679F9F27C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53679FA027C3A243004BE557 /* Debug */,
+				53679FA127C3A243004BE557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53679FA327C3A243004BE557 /* Build configuration list for PBXNativeTarget "golinks-m2 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53679FA427C3A243004BE557 /* Debug */,
+				53679FA527C3A243004BE557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53679F2D27C3A242004BE557 /* Project object */;
+}
